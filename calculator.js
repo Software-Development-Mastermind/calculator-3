@@ -24,6 +24,8 @@ class Calculator {
     }
 
     setOperands(operand) {
+        if (this.isDisplayThreeDigits()) return;
+
         if (!this.isOperation()) {
             this.setFirstOperand(operand)
             this.setDisplay(this.firstOperand);
@@ -36,8 +38,9 @@ class Calculator {
 
     setOperation(newOperator) {
         if (!this.isFirstOperand()) return;
-        if (!this.isSecondOperand()) {
+        if (!this.isSecondOperand() && !this.isOperation()) {
             this.setOperator(newOperator);
+            this.setDisplay(this.operator);
         }
     }
 
@@ -55,6 +58,10 @@ class Calculator {
 
     isOperation() {
         return !!this.operator;
+    }
+
+    isDisplayThreeDigits() {
+        return this.display.value.length === 3;
     }
 
     setFirstOperand(number) {
