@@ -1,4 +1,4 @@
-# Digital Clock App
+# Digital Calculator App
 
 <br>
 
