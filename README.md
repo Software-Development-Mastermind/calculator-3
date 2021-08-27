@@ -6,7 +6,7 @@ _A simple digital calculator application written entirely in pure Javascript, HT
 
 <br>
 
-See a working version of it [here](https://software-development-mastermind.github.io/digital-clock-3/)
+See a working version of it [here](https://andysterks.github.io/calculator-3/)
 
 <br>
 
