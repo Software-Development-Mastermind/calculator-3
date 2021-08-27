@@ -2,7 +2,7 @@
 
 <br>
 
-_A simple digital clock application written entirely in pure Javascript, HTML and CSS_
+_A simple digital calculator application written entirely in pure Javascript, HTML and CSS_
 
 <br>
 
